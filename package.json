@@ -26,5 +26,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "material-design-lite": "^1.1.3"
   }
 }
