@@ -53,7 +53,9 @@ textarea {
     text-align: center;
     margin: 0 auto;
 }
-
+.background-cream {
+  background-color:#F7F2ED;
+}
 /*.sky {
     background: url('../img/sky.png') center/cover;
     color: blue;
