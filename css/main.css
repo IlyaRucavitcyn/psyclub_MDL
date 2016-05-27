@@ -42,19 +42,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 /*Units*/
-.full-width{
-  width:100%;
+
+.full-width {
+    width: 100%;
 }
 .centered {
-  text-align:center;
-  margin:0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
+
 /*.sky {
     background: url('../img/sky.png') center/cover;
     color: blue;
 }*/
+
 .mdl-layout .mdl-layout__drawer-button {
+    color: white;
+}
+.mdl-card .white-color {
     color: white;
 }
 .logo {
@@ -64,19 +72,19 @@ textarea {
     text-transform: uppercase;
 }
 .marina > .mdl-card__title {
-  color:white;
-  background: url('../img/marina-promo_new.jpg') center / cover;
-  height:500px;
+    color: white;
+    background: url('../img/marina-promo_new.jpg') center / cover;
+    height: 500px;
 }
 .anastasia > .mdl-card__title {
-  color:white;
-  background: url('../img/anastasia-promo_new.jpg') center / cover;
-  height:500px;
+    color: white;
+    background: url('../img/anastasia-promo_new.jpg') center / cover;
+    height: 500px;
 }
-.heading-link{
+.heading-link {
     font-size: 2em;
     font-weight: 400;
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
