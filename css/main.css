@@ -46,10 +46,14 @@ textarea {
 .full-width{
   width:100%;
 }
-.sky {
+.centered {
+  text-align:center;
+  margin:0 auto;
+}
+/*.sky {
     background: url('../img/sky.png') center/cover;
     color: blue;
-}
+}*/
 .mdl-layout .mdl-layout__drawer-button {
     color: white;
 }
@@ -58,6 +62,16 @@ textarea {
     font-weight: 700;
     letter-spacing: 10px;
     text-transform: uppercase;
+}
+.marina > .mdl-card__title {
+  color:white;
+  background: url('../img/marina-promo_new.jpg') center / cover;
+  height:500px;
+}
+.anastasia > .mdl-card__title {
+  color:white;
+  background: url('../img/anastasia-promo_new.jpg') center / cover;
+  height:500px;
 }
 .heading-link{
     font-size: 2em;
