@@ -53,9 +53,16 @@ textarea {
     text-align: center;
     margin: 0 auto;
 }
-.background-cream {
-  background-color:#F7F2ED;
+.centered-text {
+    text-align: center;
 }
+.background-cream {
+    background-color: rgb(255, 254, 250);
+}
+.background-salad{
+  background-color:rgba(170, 191, 182, 0.5);
+}
+
 /*.sky {
     background: url('../img/sky.png') center/cover;
     color: blue;
@@ -88,6 +95,33 @@ textarea {
     font-weight: 400;
     color: white;
     text-decoration: none;
+}
+.problem-link {
+    display: block;
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 5px 0;
+    text-decoration: none;
+    border-left: solid 1px rgb(96, 125, 139);
+}
+.problem-link:hover {
+    background-color: rgba(96, 125, 139, 0.1);
+}
+.form-of-work-link {
+    display: block;
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding: 5px 0 5px 5px;
+    text-decoration: none;
+    border-left: solid 1px rgba(96, 125, 139, 1);
+}
+.form-of-work-link:hover {
+    background-color: rgba(96, 125, 139, 0.1);
 }
 
 /* ==========================================================================
