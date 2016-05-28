@@ -45,7 +45,9 @@ textarea {
 
 
 /*Units*/
-
+.white-color{
+  color:white;
+}
 .full-width {
     width: 100%;
 }
@@ -59,8 +61,11 @@ textarea {
 .background-cream {
     background-color: rgb(255, 254, 250);
 }
-.background-salad{
-  background-color:rgba(170, 191, 182, 0.5);
+.background-salad {
+    background-color: rgba(170, 191, 182, 0.5);
+}
+.background-hacky {
+    background-color: rgb(141, 156, 149)
 }
 
 /*.sky {
@@ -85,6 +90,11 @@ textarea {
     background: url('../img/marina-promo_new.jpg') center / cover;
     height: 500px;
 }
+.marina-office > .mdl-card__title {
+    color: white;
+    background: url('../img/officeMinsk1_marina.jpg') center / cover;
+    height:400px;
+}
 .anastasia > .mdl-card__title {
     color: white;
     background: url('../img/anastasia-promo_new.jpg') center / cover;
@@ -103,7 +113,8 @@ textarea {
     margin: 0 auto;
     text-align: center;
     line-height: 1.5em;
-    padding: 5px 0;
+    padding: 5px 0 5px 5px;
+    ;
     text-decoration: none;
     border-left: solid 1px rgb(96, 125, 139);
 }
