@@ -48,6 +48,9 @@ textarea {
 .white-color{
   color:white;
 }
+.black-color {
+  color:black;
+}
 .full-width {
     width: 100%;
 }
@@ -65,7 +68,10 @@ textarea {
     background-color: rgba(170, 191, 182, 0.5);
 }
 .background-hacky {
-    background-color: rgb(141, 156, 149)
+    background-color: rgb(141, 156, 149);
+}
+.background-marsh {
+  background-color:rgb(211,221,188);
 }
 
 /*.sky {
@@ -95,10 +101,29 @@ textarea {
     background: url('../img/officeMinsk1_marina.jpg') center / cover;
     height:400px;
 }
+.marina-office-icon {
+  width:80px;
+  height:80px;
+  background:url('../img/marina-promo_new.jpg') center / cover;;
+  margin:0px auto;
+  border-radius:50%;
+}
 .anastasia > .mdl-card__title {
     color: white;
     background: url('../img/anastasia-promo_new.jpg') center / cover;
     height: 500px;
+}
+.anastasia-office > .mdl-card__title {
+    color: white;
+    background: url('../img/officeMinsk1_anastasia.png') center / cover;
+    height:400px;
+}
+.anastasia-office-icon {
+  width:80px;
+  height:80px;
+  background:url('../img/anastasia-promo_new.jpg') center / cover;;
+  margin:0px auto;
+  border-radius:50%;
 }
 .heading-link {
     font-size: 2em;
