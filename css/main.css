@@ -73,7 +73,9 @@ textarea {
 .background-marsh {
   background-color:rgb(211,221,188);
 }
-
+.background-light {
+  background-color:rgba(227,238,252,1);
+}
 /*.sky {
     background: url('../img/sky.png') center/cover;
     color: blue;
