@@ -6,7 +6,7 @@ html {
     line-height: 1.4;
 }
 body {
-  overflow-y:auto;
+    overflow-y: auto;
 }
 ::-moz-selection {
     background: #b3d4fc;
@@ -48,11 +48,12 @@ textarea {
 
 
 /*Units*/
-.white-color{
-  color:white;
+
+.white-color {
+    color: white;
 }
 .black-color {
-  color:black;
+    color: black;
 }
 .full-width {
     width: 100%;
@@ -65,16 +66,21 @@ textarea {
     text-align: center;
 }
 .right-bordered-text {
-  text-align: right;
+    text-align: right;
 }
 .justified-text {
-  text-align:justify;
+    text-align: justify;
 }
-.line-height-15{
-  line-height:1.5;
+.line-height-15 {
+    line-height: 1.5;
 }
 .max-width {
-  max-width:860px;
+    max-width: 860px;
+}
+.on-picture-text {
+    background-color: rgba(96, 125, 139, 0.7);
+    padding: 0% 2%;
+    border-radius: 5%;
 }
 .background-cream {
     background-color: rgb(255, 254, 250);
@@ -86,11 +92,12 @@ textarea {
     background-color: rgb(141, 156, 149);
 }
 .background-marsh {
-  background-color:rgb(211,221,188);
+    background-color: rgb(211, 221, 188);
 }
 .background-light {
-  background-color:rgba(227,238,252,1);
+    background-color: rgba(227, 238, 252, 1);
 }
+
 /*.sky {
     background: url('../img/sky.png') center/cover;
     color: blue;
@@ -116,14 +123,15 @@ textarea {
 .marina-office > .mdl-card__title {
     color: white;
     background: url('../img/officeMinsk1_marina.png') center / cover;
-    height:400px;
+    height: 400px;
 }
 .marina-office-icon {
-  width:80px;
-  height:80px;
-  background:url('../img/marina-promo_new.png') center / cover;;
-  margin:0px auto;
-  border-radius:50%;
+    width: 80px;
+    height: 80px;
+    background: url('../img/marina-promo_new.png') center / cover;
+    ;
+    margin: 0px auto;
+    border-radius: 50%;
 }
 .anastasia > .mdl-card__title {
     color: white;
@@ -133,14 +141,15 @@ textarea {
 .anastasia-office > .mdl-card__title {
     color: white;
     background: url('../img/officeMinsk1_anastasia.png') center / cover;
-    height:400px;
+    height: 400px;
 }
 .anastasia-office-icon {
-  width:80px;
-  height:80px;
-  background:url('../img/anastasia-promo_new.png') center / cover;;
-  margin:0px auto;
-  border-radius:50%;
+    width: 80px;
+    height: 80px;
+    background: url('../img/anastasia-promo_new.png') center / cover;
+    ;
+    margin: 0px auto;
+    border-radius: 50%;
 }
 .heading-link {
     font-size: 2em;
