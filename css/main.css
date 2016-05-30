@@ -61,6 +61,15 @@ textarea {
 .centered-text {
     text-align: center;
 }
+.right-bordered-text {
+  text-align: right;
+}
+.justified-text {
+  text-align:justify;
+}
+.line-height-15{
+  line-height:1.5;
+}
 .background-cream {
     background-color: rgb(255, 254, 250);
 }
