@@ -5,6 +5,9 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body {
+  overflow-y:auto;
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
