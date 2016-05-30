@@ -97,6 +97,13 @@ textarea {
 .background-light {
     background-color: rgba(227, 238, 252, 1);
 }
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
 
 /*.sky {
     background: url('../img/sky.png') center/cover;
