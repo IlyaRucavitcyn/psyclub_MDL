@@ -78,6 +78,7 @@ textarea {
     max-width: 860px;
 }
 .on-picture-text {
+    background-color: rgb(96, 125, 139);
     background-color: rgba(96, 125, 139, 0.7);
     padding: 0% 2%;
     border-radius: 5%;
@@ -86,6 +87,7 @@ textarea {
     background-color: rgb(255, 254, 250);
 }
 .background-salad {
+    background-color: rgb(170, 191, 182);
     background-color: rgba(170, 191, 182, 0.5);
 }
 .background-hacky {
@@ -95,6 +97,7 @@ textarea {
     background-color: rgb(211, 221, 188);
 }
 .background-light {
+    background-color: rgb(227, 238, 252);
     background-color: rgba(227, 238, 252, 1);
 }
 .share-buttons img {
@@ -122,40 +125,40 @@ textarea {
     letter-spacing: 10px;
     text-transform: uppercase;
 }
+.marina-photo {
+    background: url('../img/marina-promo_new.png') center / cover;
+}
 .marina > .mdl-card__title {
     color: white;
-    background: url('../img/marina-promo_new.png') center / cover;
     height: 500px;
 }
 .marina-office > .mdl-card__title {
-    color: white;
     background: url('../img/officeMinsk1_marina.png') center / cover;
+    color: white;
     height: 400px;
 }
 .marina-office-icon {
     width: 80px;
     height: 80px;
-    background: url('../img/marina-promo_new.png') center / cover;
-    ;
-    margin: 0px auto;
+    margin: 0 auto;
     border-radius: 50%;
+}
+.anastasia-photo {
+    background: url('../img/anastasia-promo_new.png') center / cover;
 }
 .anastasia > .mdl-card__title {
     color: white;
-    background: url('../img/anastasia-promo_new.png') center / cover;
     height: 500px;
 }
 .anastasia-office > .mdl-card__title {
-    color: white;
     background: url('../img/officeMinsk1_anastasia.png') center / cover;
+    color: white;
     height: 400px;
 }
 .anastasia-office-icon {
     width: 80px;
     height: 80px;
-    background: url('../img/anastasia-promo_new.png') center / cover;
-    ;
-    margin: 0px auto;
+    margin: 0246 auto;
     border-radius: 50%;
 }
 .heading-link {
@@ -177,6 +180,7 @@ textarea {
     border-left: solid 1px rgb(96, 125, 139);
 }
 .problem-link:hover {
+    background-color: rgb(96, 125, 139);
     background-color: rgba(96, 125, 139, 0.1);
 }
 .form-of-work-link {
@@ -187,9 +191,11 @@ textarea {
     line-height: 1.5em;
     padding: 5px 0 5px 5px;
     text-decoration: none;
+    border-left: solid 1px rgb(96, 125, 139);
     border-left: solid 1px rgba(96, 125, 139, 1);
 }
 .form-of-work-link:hover {
+    background-color: rgb(96, 125, 139);
     background-color: rgba(96, 125, 139, 0.1);
 }
 
@@ -276,11 +282,13 @@ textarea {
     img {
         max-width: 100% !important;
     }
-    p, h2, h3 {
+    p {
         orphans: 3;
         widows: 3;
     }
     h2, h3 {
         page-break-after: avoid;
+        orphans: 3;
+        widows: 3;
     }
 }
