@@ -11,11 +11,13 @@ gulp.task('htmllint', function() {
 });
 
 gulp.task('csslint', function() {
-  gulp.src('./css/*.css')
+  gulp.src('./css/main.css')
     .pipe(csslint({
       'box-sizing':false,
       'adjoining-classes':false,
-      'important':false
+      'box-model':false,
+      'universal-selector':false,
+      'regex-selectors':false
     }))
     .pipe(csslint.reporter());
 });

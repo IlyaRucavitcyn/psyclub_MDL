@@ -80,7 +80,7 @@ textarea {
 .on-picture-text {
     background-color: rgb(96, 125, 139);
     background-color: rgba(96, 125, 139, 0.7);
-    padding: 0% 2%;
+    padding: 0 2%;
     border-radius: 5%;
 }
 .background-cream {
@@ -103,9 +103,6 @@ textarea {
 .share-buttons img {
     width: 35px;
     padding: 5px;
-    border: 0;
-    box-shadow: 0;
-    display: inline;
 }
 
 /*.sky {
@@ -211,7 +208,9 @@ textarea {
    ========================================================================== */
 
 .hidden {
+    /*csslint important: false*/
     display: none !important;
+    /*csslint important: true*/
     visibility: hidden;
 }
 .visuallyhidden {
@@ -242,9 +241,6 @@ textarea {
 .clearfix:after {
     clear: both;
 }
-.clearfix {
-    *zoom: 1;
-}
 
 /* ==========================================================================
    Print styles
@@ -257,6 +253,7 @@ textarea {
         box-shadow: none !important;
         text-shadow: none !important;
     }
+
     a, a:visited {
         text-decoration: underline;
     }
@@ -276,11 +273,14 @@ textarea {
     thead {
         display: table-header-group;
     }
-    tr, img {
+    tr {
         page-break-inside: avoid;
     }
     img {
+        page-break-inside: avoid;
+        /*csslint important: false*/
         max-width: 100% !important;
+        /*csslint important: true*/
     }
     p {
         orphans: 3;
@@ -291,4 +291,5 @@ textarea {
         orphans: 3;
         widows: 3;
     }
+    /*csslint universal-selector: true*/
 }
