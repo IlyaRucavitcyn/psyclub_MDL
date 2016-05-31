@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
     htmlHint = require('gulp-htmlhint'),
-    // please check https://www.npmjs.com/package/gulp-htmlhint for docs
-    csslint = require('gulp-csslint');
-    // please check https://www.npmjs.com/package/gulp-csslint for docs
+    csslint = require('gulp-csslint'),
+    watch = require('gulp-watch');
 
 gulp.task('htmllint', function() {
     return gulp.src('./index.html')
@@ -21,3 +20,9 @@ gulp.task('csslint', function() {
     }))
     .pipe(csslint.reporter());
 });
+
+gulp.task('watch', function(){
+  gulp.watch(['./index.html','./css/main.css'],['htmllint','csslint'])
+});
+
+gulp.task('default',['htmllint','csslint','watch']);
