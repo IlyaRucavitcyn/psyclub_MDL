@@ -84,6 +84,10 @@ textarea {
 .max-width {
     max-width: 860px;
 }
+.mdl-grid .mdl-card__title-text {
+    font-size: 35px;
+    font-weight: 300;
+}
 .on-picture-text {
     background-color: rgb(96, 125, 139);
     background-color: rgba(96, 125, 139, 0.7);
@@ -136,8 +140,8 @@ textarea {
 .promo-icon {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    margin: 50px auto;
+    border-radius: 3%;
+    margin: 30% auto;
 }
 .marina-photo {
     background: url('../img/marina-promo_new.png') center / cover;
@@ -149,7 +153,7 @@ textarea {
 .marina-office > .mdl-card__title {
     background: url('../img/officeMinsk1_marina.png') center / cover;
     color: white;
-    height: 400px;
+
 }
 .marina-office-icon {
     width: 80px;
@@ -167,7 +171,7 @@ textarea {
 .anastasia-office > .mdl-card__title {
     background: url('../img/officeMinsk1_anastasia.png') center / cover;
     color: white;
-    height: 400px;
+
 }
 .anastasia-office-icon {
     width: 80px;
@@ -177,6 +181,16 @@ textarea {
 }
 .marina-and-anastasia-photo {
     background: url('../img/marina_and_anastasia_2.png') center / cover;
+}
+.icon{
+  width: 30px;
+   height: 30px;
+  /* margin: 0 auto; */
+  border-radius: 50%;
+  background-color:rgb(220, 220, 220);
+}
+.group-icon{
+  background: url('../img/ic_group_add_black_24px.svg') center / cover;
 }
 .heading-link {
     font-size: 2em;
