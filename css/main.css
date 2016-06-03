@@ -71,11 +71,25 @@ textarea {
 .justified-text {
     text-align: justify;
 }
+.listed-text {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, .13);
+}
 .line-height-15 {
     line-height: 1.5;
 }
+.line-height-40 {
+  line-height: 4;
+}
+.picture-min-height {
+    min-height: 250px;
+}
 .max-width {
     max-width: 860px;
+}
+.mdl-grid .mdl-card__title-text {
+    font-size: 35px;
+    font-weight: 300;
 }
 .on-picture-text {
     background-color: rgb(96, 125, 139);
@@ -98,7 +112,11 @@ textarea {
 }
 .background-light {
     background-color: rgb(227, 238, 252);
-    background-color: rgba(227, 238, 252, 1);
+    background-color: rgb(220, 220, 220);
+}
+.background-light-gray {
+    background-color: rgb(96, 125, 139);
+    background-color: rgba(96, 125, 139, 0.86);
 }
 .share-buttons img {
     width: 35px;
@@ -122,6 +140,12 @@ textarea {
     letter-spacing: 10px;
     text-transform: uppercase;
 }
+.promo-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 3%;
+    margin: 30% auto;
+}
 .marina-photo {
     background: url('../img/marina-promo_new.png') center / cover;
 }
@@ -132,7 +156,7 @@ textarea {
 .marina-office > .mdl-card__title {
     background: url('../img/officeMinsk1_marina.png') center / cover;
     color: white;
-    height: 400px;
+
 }
 .marina-office-icon {
     width: 80px;
@@ -150,13 +174,44 @@ textarea {
 .anastasia-office > .mdl-card__title {
     background: url('../img/officeMinsk1_anastasia.png') center / cover;
     color: white;
-    height: 400px;
+
 }
 .anastasia-office-icon {
     width: 80px;
     height: 80px;
-    margin: 0246 auto;
+    margin: 0 auto;
     border-radius: 50%;
+}
+.marina-and-anastasia-photo {
+    background: url('../img/marina_and_anastasia_2.png') center / cover;
+}
+.icon{
+  width: 35px;
+   height: 35px;
+  /* margin: 0 auto; */
+  border-radius: 50%;
+  background-color:rgb(220, 220, 220);
+}
+.group-icon{
+
+  background: url('../img/ic_group_add_black_24px.svg') center / cover;
+  background-color: rgb(96, 125, 139);
+  background-color:  rgba(96, 125, 139, 0.4);
+}
+.pair-icon {
+  background: url('../img/ic_people_black_24px.svg') center / cover;
+  background-color: rgb(96, 125, 139);
+  background-color: rgba(96, 125, 139, 0.4);
+}
+.individual-icon {
+  background: url('../img/ic_person_black_24px.svg') center / cover;
+  background-color: rgb(96, 125, 139);
+  background-color: rgba(96, 125, 139, 0.4);
+}
+.skype-icon {
+  background: url('../img/ic_phone_black_24px.svg') center / cover;
+  background-color: rgb(96, 125, 139);
+  background-color: rgba(96, 125, 139, 0.4);
 }
 .heading-link {
     font-size: 2em;
@@ -253,7 +308,6 @@ textarea {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a, a:visited {
         text-decoration: underline;
     }
