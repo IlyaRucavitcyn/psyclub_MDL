@@ -71,6 +71,9 @@ textarea {
 .justified-text {
     text-align: justify;
 }
+.font-size-18{
+  font-size:18px;
+}
 .listed-text {
     border-bottom: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgba(0, 0, 0, .13);
