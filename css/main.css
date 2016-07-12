@@ -74,6 +74,9 @@ textarea {
 .listed-text {
     border-bottom: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgba(0, 0, 0, .13);
+    text-decoration:none;
+    color:rgb(0,0,0);
+    color:rgba(0,0,0,.87);
 }
 .line-height-15 {
     line-height: 1.5;
