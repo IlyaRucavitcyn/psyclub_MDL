@@ -96,9 +96,6 @@ textarea {
 .line-height-13 {
     line-height: 1.3;
 }
-.line-height-15 {
-    line-height: 1.5;
-}
 .line-height-40 {
     line-height: 4;
 }
@@ -120,19 +117,6 @@ textarea {
     background-color: rgba(96, 125, 139, 0.7);
     padding: 0 2%;
     border-radius: 5%;
-}
-.background-cream {
-    background-color: rgb(255, 254, 250);
-}
-.background-salad {
-    background-color: rgb(170, 191, 182);
-    background-color: rgba(170, 191, 182, 0.5);
-}
-.background-hacky {
-    background-color: rgb(141, 156, 149);
-}
-.background-marsh {
-    background-color: rgb(211, 221, 188);
 }
 .background-light {
     background-color: rgb(227, 238, 252);
@@ -163,12 +147,6 @@ textarea {
     font-weight: 700;
     letter-spacing: 10px;
     text-transform: uppercase;
-}
-.promo-icon {
-    width: 150px;
-    height: 150px;
-    border-radius: 3%;
-    margin: 30% auto;
 }
 .marina-photo {
     background: url('../img/marina-promo_new.png') center / cover;
@@ -212,26 +190,7 @@ textarea {
     height: 35px;
     border-radius: 50%;
     background: center / cover no-repeat rgb(220, 220, 220);
-    /*background-color: rgb(220, 220, 220);*/
 }
-.heading-link {
-    font-size: 2em;
-    font-weight: 400;
-    color: white;
-    text-decoration: none;
-}
-
-/*.icon:before {
-    content: '';
-    display: inline-block;
-    width: 2.3em;
-    height: 2.3em;
-    vertical-align: middle;
-    margin: 0 20px;
-    border-radius: 50%;
-    background: center / cover no-repeat rgba(96, 125, 139, 0.4);
-}*/
-
 .group-icon {
     background-image: url('../img/ic_group_add_black_24px.svg');
 }
@@ -244,38 +203,6 @@ textarea {
 .skype-icon {
     background-image: url('../img/ic_phone_black_24px.svg');
 }
-.problem-link {
-    display: block;
-    color: black;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.5em;
-    padding: 5px 0 5px 5px;
-    ;
-    text-decoration: none;
-    border-left: solid 1px rgb(96, 125, 139);
-}
-.problem-link:hover {
-    background-color: rgb(96, 125, 139);
-    background-color: rgba(96, 125, 139, 0.1);
-}
-.form-of-work-link {
-    display: block;
-    color: black;
-    width: 80%;
-    margin: 0 auto;
-    line-height: 1.5em;
-    padding: 5px 0 5px 5px;
-    text-decoration: none;
-    border-left: solid 1px rgb(96, 125, 139);
-    border-left: solid 1px rgba(96, 125, 139, 1);
-}
-.form-of-work-link:hover {
-    background-color: rgb(96, 125, 139);
-    background-color: rgba(96, 125, 139, 0.1);
-}
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
