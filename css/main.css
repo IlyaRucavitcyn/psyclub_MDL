@@ -203,12 +203,12 @@ textarea {
     background: url('../img/marina_and_anastasia_2.png') center / cover;
 }
 
-/*.icon {
+.icon {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     background-color: rgb(220, 220, 220);
-}*/
+}
 
 .heading-link {
     font-size: 2em;
@@ -216,28 +216,26 @@ textarea {
     color: white;
     text-decoration: none;
 }
-.icon:before {
+/*.icon:before {
     content: '';
     display: inline-block;
     width: 2.3em;
     height: 2.3em;
     vertical-align: middle;
     margin: 0 20px;
-    /* line-height: 36px; */
     border-radius: 50%;
-    /* box-sizing: border-box; */
     background: center / cover no-repeat rgba(96, 125, 139, 0.4);
-}
-.group-icon::before {
+}*/
+.group-icon {
     background-image: url('../img/ic_group_add_black_24px.svg');
 }
-.pair-icon:before {
+.pair-icon {
     background-image: url('../img/ic_people_black_24px.svg');
 }
-.individual-icon:before {
+.individual-icon {
     background-image: url('../img/ic_person_black_24px.svg');
 }
-.skype-icon:before {
+.skype-icon {
     background-image: url('../img/ic_phone_black_24px.svg');
 }
 .problem-link {
