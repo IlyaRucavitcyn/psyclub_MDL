@@ -1,45 +1,46 @@
 {
-    "name": "node-js-getting-started",
-    "version": "0.1.5",
-    "description": "A sample Node.js app using Express 4",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "./node_modules/.bin/webpack",
-      "serve": "./node_modules/.bin/webpack-dev-server --open",
-      "prod": "./node_modules/.bin/webpack -p"
-    },
-    "dependencies": {
-        "cool-ascii-faces": "1.3.3",
-        "ejs": "2.3.3",
-        "express": "4.13.3"
-    },
-    "engines": {
-        "node": "0.12.7"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/heroku/node-js-getting-started"
-    },
-    "keywords": [
-        "node",
-        "heroku",
-        "express"
-    ],
-    "license": "MIT",
-    "devDependencies": {
-        "autoprefixer": "^6.6.0",
-        "babel-core": "^6.21.0",
-        "babel-loader": "^6.2.10",
-        "babel-preset-es2015": "^6.18.0",
-        "css-loader": "^0.26.1",
-        "extract-text-webpack-plugin": "^2.0.0-beta.4",
-        "file-loader": "^0.9.0",
-        "html-loader": "^0.4.4",
-        "postcss-import": "^9.0.0",
-        "postcss-loader": "^1.2.1",
-        "style-loader": "^0.13.1",
-        "webpack": "^2.2.0-rc.2",
-        "webpack-dev-server": "^2.2.0-rc.0"
-    }
+  "name": "node-js-getting-started",
+  "version": "0.1.5",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack",
+    "serve": "./node_modules/.bin/webpack-dev-server --open",
+    "prod": "./node_modules/.bin/webpack -p"
+  },
+  "dependencies": {
+    "cool-ascii-faces": "1.3.3",
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "jquery": "^3.1.1"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "postcss-import": "^9.0.0",
+    "postcss-loader": "^1.2.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0-rc.2",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  }
 }

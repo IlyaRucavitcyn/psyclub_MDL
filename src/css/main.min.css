@@ -255,7 +255,9 @@ body.loading .page-content {
 .black-color {
     color: black;
 }
-
+.dark-green-color{
+  color:#758e9a;
+}
 .full-width {
     width: 100%;
 }
@@ -378,7 +380,13 @@ body.loading .page-content {
 }
 
 .anastasia-photo {
-    background: url("../img/anastasia-promo_new.png") center center/cover;
+    background: url("../img/anastasia-promo_new.png") center top/cover;
+}
+
+@media (max-width: 479px) {
+  .anastasia-photo.profile {
+      background: url('../img/anastasia-promo_new.png') center top/200px no-repeat rgb(192, 199, 212);
+  }
 }
 
 .anastasia>.mdl-card__title {

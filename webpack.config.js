@@ -1,7 +1,8 @@
 'use strict';
 
 var path = require('path'),
-    ExtractTextPlugin = require("extract-text-webpack-plugin");
+    ExtractTextPlugin = require("extract-text-webpack-plugin"),
+    webpack = require('webpack');
 
 var extractCSS = new ExtractTextPlugin("bundle.css"),
     extractHTML = new ExtractTextPlugin("index.html");
@@ -40,18 +41,22 @@ module.exports = {
     plugins: [
         function(webpack) {
             return [
-                  require('postcss-import')({
-                      addDependencyTo: webpack
-                  }),
-                  require('autoprefixer')
+                require('postcss-import')({
+                    addDependencyTo: webpack
+                }),
+                require('autoprefixer')
             ];
         },
         extractCSS,
-        extractHTML
+        extractHTML,
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
+        })
     ],
     devServer: {
         compress: true,
         port: 9000,
-        publicPath:""
+        publicPath: ""
     }
 }
