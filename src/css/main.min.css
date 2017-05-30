@@ -6,11 +6,26 @@ body {
     margin: 0px;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
     display: block;
 }
 
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
     display: inline-block;
     vertical-align: baseline;
 }
@@ -20,7 +35,8 @@ audio:not([controls]) {
     height: 0px;
 }
 
-[hidden], template {
+[hidden],
+template {
     display: none;
 }
 
@@ -28,7 +44,8 @@ a {
     background-color: transparent;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
     outline: 0px;
 }
 
@@ -37,7 +54,8 @@ abbr[title] {
     border-bottom-style: dotted;
 }
 
-b, strong {
+b,
+strong {
     font-weight: 700;
 }
 
@@ -59,7 +77,8 @@ small {
     font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -95,12 +114,19 @@ pre {
     overflow: auto;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
     font-family: monospace, monospace;
     font-size: 1em;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
     color: inherit;
     font-style: inherit;
     font-variant: inherit;
@@ -116,16 +142,21 @@ button {
     overflow: visible;
 }
 
-button, select {
+button,
+select {
     text-transform: none;
 }
 
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
 }
 
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
     cursor: default;
 }
 
@@ -133,12 +164,14 @@ input {
     line-height: normal;
 }
 
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
     box-sizing: border-box;
     padding: 0px;
 }
 
-input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
 
@@ -147,7 +180,8 @@ input[type="search"] {
     box-sizing: content-box;
 }
 
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
@@ -175,7 +209,8 @@ table {
     border-spacing: 0px;
 }
 
-td, th {
+td,
+th {
     padding: 0px;
 }
 
@@ -204,7 +239,12 @@ hr {
     padding: 0px;
 }
 
-audio, canvas, iframe, img, svg, video {
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
     vertical-align: middle;
 }
 
@@ -217,23 +257,26 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
+
 /*preloader*/
+
 body:after {
-    content:'';
-    position:fixed;
-    width:100%;
-    height:100%;
-    left:0;
-    bottom:0;
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
     background: url(../img/preloader.gif) no-repeat 50% 50% #dcdcdc;
     transition: opacity 500ms linear;
-    opacity:0;
-    z-index:-1;
+    opacity: 0;
+    z-index: -1;
 }
 
 body.loading:after {
-    opacity:1;
-    z-index:5;
+    opacity: 1;
+    z-index: 5;
 }
 
 body.loading .page-content {
@@ -338,6 +381,17 @@ body.loading .page-content {
     background-color: rgba(96, 125, 139, 0.862745);
 }
 
+.background-light-blue {
+    background-color: rgb(33, 150, 243);
+}
+
+.background-light-white {
+    background-color: white;
+    background:url('../img/clouds.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .share-buttons img {
     width: 35px;
     padding: 5px;
@@ -431,4 +485,43 @@ body.loading .page-content {
 
 .skype-icon {
     background-image: url("../img/ic_phone_black_24px.svg");
+}
+
+
+/*skype.html*/
+
+.section-skype {
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    /*background: url('../img/clouds.jpg') 50% 50% no-repeat cover;*/
+    /*background:url('../img/clouds.jpg') no-repeat center;
+    background-attachment: fixed;*/
+}
+
+.section-skype-title {
+    line-height: 200px;
+    font-size: 80px;
+    font-weight: bold;
+    /*letter-spacing: 0.1em;*/
+    color: rgb(33, 150, 243);
+    text-shadow: 0 1px hsl(207, 90%, 54%),
+	             0 2px hsl(207, 90%, 50%),
+	             0 3px hsl(207, 90%, 44%),
+	             0 4px hsl(207, 90%, 40%),
+	             0 5px hsl(207, 90%, 35%),
+	             0 5px 10px black;
+}
+
+.mdl-card.section-about-therapy-card{
+    /*background: #e4eff9;*/
+    padding:30px 40px;
+}
+
+.section-about-therapy-text{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: justify;
 }

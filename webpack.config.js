@@ -30,9 +30,11 @@ module.exports = {
             })
         }, {
             test: /\.html$/,
-            loader: extractHTML.extract({
-                loader: "html-loader"
-            })
+            loaders: [
+                'file-loader?name=[name].[ext]',
+                'extract-loader',
+                'html-loader'
+            ]
         }, {
             test: /\.(png|jpg|gif|svg)$/,
             loader: "file-loader?name=img/[name].[ext]"
