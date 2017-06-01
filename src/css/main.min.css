@@ -298,9 +298,11 @@ body.loading .page-content {
 .black-color {
     color: black;
 }
-.dark-green-color{
-  color:#758e9a;
+
+.dark-green-color {
+    color: #758e9a;
 }
+
 .full-width {
     width: 100%;
 }
@@ -382,12 +384,12 @@ body.loading .page-content {
 }
 
 .background-light-blue {
-    background-color: rgb(0,150,136);
+    background-color: rgb(158, 158, 158);
 }
 
 .background-light-white {
     background-color: white;
-    background:url('../img/clouds.jpg') no-repeat center;
+    background: url('../img/clouds.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -438,9 +440,9 @@ body.loading .page-content {
 }
 
 @media (max-width: 479px) {
-  .anastasia-photo.profile {
-      background: url('../img/anastasia-promo_new.png') center top/200px no-repeat rgb(192, 199, 212);
-  }
+    .anastasia-photo.profile {
+        background: url('../img/anastasia-promo_new.png') center top/200px no-repeat rgb(192, 199, 212);
+    }
 }
 
 .anastasia>.mdl-card__title {
@@ -494,38 +496,23 @@ body.loading .page-content {
     height: 200px;
     text-align: center;
     text-transform: uppercase;
-    /*background: url('../img/clouds.jpg') 50% 50% no-repeat cover;*/
-    /*background:url('../img/clouds.jpg') no-repeat center;
-    background-attachment: fixed;*/
+    font-family: 'Indie Flower', cursive;
 }
 
 .section-skype-title {
     line-height: 200px;
     font-size: 80px;
     font-weight: bold;
-    /*letter-spacing: 0.1em;*/
-    /*color: rgb(33, 150, 243);
-    text-shadow: 0 1px hsl(207, 90%, 54%),
-	             0 2px hsl(207, 90%, 50%),
-	             0 3px hsl(207, 90%, 44%),
-	             0 4px hsl(207, 90%, 40%),
-	             0 5px hsl(207, 90%, 35%),
-	             0 5px 10px black;*/
-    color: rgb(0,150,136);
-    text-shadow: 0 1px hsl(174, 100%, 29.4%),
-	             0 2px hsl(174, 100%, 24.4%),
-	             0 3px hsl(174, 100%, 19.4%),
-	             0 4px hsl(174, 100%, 14.4%),
-	             0 5px hsl(174, 100%, 9.4%),
-	             0 5px 10px black;
+    color: rgb(158, 158, 158);
+    text-shadow: 0 1px hsl(0, 0%, 62.4%), 0 2px hsl(0, 0%, 55.4%), 0 3px hsl(0, 0%, 50.4%), 0 4px hsl(0, 0%, 45.4%), 0 5px hsl(0, 0%, 40%), 0 5px 10px black;
 }
 
-.mdl-card.section-about-therapy-card{
+.mdl-card.section-about-therapy-card {
     /*background: #e4eff9;*/
-    padding:30px 40px;
+    padding: 30px 40px;
 }
 
-.section-about-therapy-text{
+.section-about-therapy-text {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
