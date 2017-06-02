@@ -350,6 +350,10 @@ body.loading .page-content {
     color: rgb(96, 125, 139);
 }
 
+.line-height-15 {
+    line-height: 1.5;
+}
+
 .line-height-13 {
     line-height: 1.3;
 }
@@ -518,4 +522,25 @@ body.loading .page-content {
     font-weight: 400;
     line-height: 1.5em;
     text-align: justify;
+}
+
+.section-useful-links-item {
+    transition: background 200ms linear;
+}
+
+.section-useful-links-item:hover {
+    background-color: #ececec;
+    transition: background 200ms linear
+}
+
+.mdl-list__item.line-height-15 {
+    line-height: 1.5;
+}
+
+.section-useful-links-item-text {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 1.5;
 }
