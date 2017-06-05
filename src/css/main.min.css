@@ -370,6 +370,10 @@ body.loading .page-content {
     min-height: 250px;
 }
 
+.picture-min-height-400 {
+    min-height: 400px;
+}
+
 .max-width {
     max-width: 860px;
 }
@@ -449,6 +453,10 @@ body.loading .page-content {
     }
 }
 
+.anastasia-photo-skype {
+    background: url('../img/anastasia-promo_new.png') center top/400px no-repeat rgb(192, 199, 212);
+}
+
 .anastasia>.mdl-card__title {
     color: white;
     height: 500px;
@@ -509,6 +517,18 @@ body.loading .page-content {
     font-weight: bold;
     color: rgb(158, 158, 158);
     text-shadow: 0 1px hsl(0, 0%, 62.4%), 0 2px hsl(0, 0%, 55.4%), 0 3px hsl(0, 0%, 50.4%), 0 4px hsl(0, 0%, 45.4%), 0 5px hsl(0, 0%, 40%), 0 5px 10px black;
+}
+
+@media (max-width: 650px) {
+    .section-skype-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-skype-title {
+        font-size: 40px;
+    }
 }
 
 .mdl-card.section-about-therapy-card {
