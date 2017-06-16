@@ -9,4 +9,4 @@ import "./js/windowOnload";
 
 // html
 import "./index.html"
-import "./skype.html"
+import "./online-therapy.html"
