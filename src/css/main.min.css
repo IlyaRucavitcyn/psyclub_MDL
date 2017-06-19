@@ -374,6 +374,12 @@ body.loading .page-content {
     min-height: 400px;
 }
 
+@media (max-width: 600px) {
+    .picture-min-height-400 {
+        min-height: 250px;
+    }
+}
+
 .max-width {
     max-width: 860px;
 }
@@ -457,6 +463,12 @@ body.loading .page-content {
 
 .anastasia-photo-skype {
     background: url('../img/anastasia-promo_new.png') center top/400px no-repeat rgb(192, 199, 212);
+}
+
+@media (max-width: 600px){
+   .anastasia-photo-skype {
+        background: url('../img/anastasia-promo_new.png') center top/250px no-repeat rgb(192, 199, 212);
+} 
 }
 
 .anastasia>.mdl-card__title {
